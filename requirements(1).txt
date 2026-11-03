@@ -1,0 +1,13 @@
+# Versions should be fixed using the exact environment that generated the original checkpoints.
+numpy>=1.23,<3
+scipy>=1.9
+h5py>=3.7
+nibabel>=4
+SimpleITK>=2.2
+medpy>=0.4
+Pillow>=9
+pandas>=1.4
+tensorboard>=2.12
+tqdm>=4.64
+torchvision
+# Install PyTorch and torchvision using matching CUDA wheels for your system.
